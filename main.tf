@@ -32,4 +32,3 @@ resource "aws_ssoadmin_account_assignment" "assignment" {
   target_id   = each.value
   target_type = "AWS_ACCOUNT"
 }
-//info
